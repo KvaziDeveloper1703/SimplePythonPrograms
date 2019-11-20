@@ -1,5 +1,10 @@
-import random
-print("Welcome to ROCK-PAPER-SCISSORS-SPOCK-LIZZARD GAME!")
+"""
+This program simulates a game called ROCK-PAPER-SCISSORS-SPOCK-LIZZARD GAME. 
+You play with computer, that chooses random possible variants. 
+If your choise is stronger, than you win. Otherwise, you lose. In case choises are same, program announces a draw. 
+"""
+import random #We import nesessary module
+print("Welcome to ROCK-PAPER-SCISSORS-SPOCK-LIZZARD GAME!") #We print welcome screen
 print("1-Rock")
 print("2-Paper")
 print("3-Scissors")
@@ -7,7 +12,7 @@ print("4-Spock")
 print("5-Lizzard1")
 answer = 1;
 
-while answer == 1:
+while answer == 1: #Here is the loop with actual game process
     choice = int(input("What do you chose? [number]"))
     opponent = random.randint(1,5)
     print(choice,opponent)
