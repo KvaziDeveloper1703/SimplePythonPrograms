@@ -1,3 +1,7 @@
+"""
+This program checks, if given sentance is polindrome.
+Polindrome is a sentance, that does not change, if we read it backwards.
+"""
 choice = 1;
 while choice == 1:
     textLine = input("Write a string here, to check if it is a polindrome:") #We enter the line
